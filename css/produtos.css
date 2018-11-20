@@ -1,0 +1,174 @@
+.banner_produtos {
+    background: url("../img/bg-produtos.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.produtos_item {
+    padding: 60px 0;
+}
+
+.produtos_item h2 {
+    position: relative;
+    top: -180px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: -56px;
+}
+
+.produtos_item h2:before, .produtos_item h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 8px auto;
+}
+
+.produto-icone {
+    background: #000;
+    padding: 70px 0;
+}
+
+.produto-icone img {
+	margin: 0 auto;
+}
+
+.info-passeio ul li {
+    background: #1fb586;
+}
+
+.info-esporte ul li {
+    background: #eab126;
+}
+
+.info-retro ul li {
+    background: #f24c4e;
+}
+
+.produto-info {
+    background: #000;
+}
+
+.produto-info p {
+    color: #fff;
+    height: 180px;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px 30px;
+}
+
+.produto-info ul li {
+    float: left;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+    width: 229px;
+    height: 49px;
+    padding-top: 16px;
+}
+
+.produto-info ul li:nth-child(even) {
+    margin-left: 2px;
+}
+
+.produto-info ul li:nth-child(1) {
+    margin-bottom: 2px;
+}
+
+.produto-info ul li:nth-child(2) {
+    margin-bottom: 2px;
+}
+
+
+
+/* Orçamento */
+.orcamento {
+    width: 100%;
+    background: #000;
+    padding: 40px 0;
+    margin-top: 60px;
+}
+
+.form {
+    padding-right: 60px;
+}
+
+.form label {
+    display: block;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.form input, .form textarea {
+    display: block;
+    color: #fff;
+    width: 100%;
+    border: 3px solid #1fb586;
+    background: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.form textarea {
+    height: 120px;
+}
+
+.form button {
+    cursor: pointer;
+    background: none;
+    padding: 7px 40px;
+}
+
+.orcamento-dados {
+    color: #fff;
+}
+
+.orcamento-dados h3 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1fb586;
+}
+
+.orcamento-dados span {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.orcamento-dados span:nth-of-type(2) {
+    margin-bottom: 40px;
+}
+
+.orcamento-dados ul {
+    padding-right: 60px;
+}
+
+.orcamento-dados ul li {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.orcamento-dados ul li:nth-child(odd) {
+    background: #1D1D1D;
+}
+
+.orcamento-dados p {
+	margin: 8px 0;
+}
